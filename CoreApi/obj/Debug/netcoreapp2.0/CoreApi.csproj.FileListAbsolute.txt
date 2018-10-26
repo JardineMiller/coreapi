@@ -1,0 +1,11 @@
+C:\Users\jardi\Desktop\coreapi\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.deps.json
+C:\Users\jardi\Desktop\coreapi\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.runtimeconfig.json
+C:\Users\jardi\Desktop\coreapi\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.runtimeconfig.dev.json
+C:\Users\jardi\Desktop\coreapi\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.dll
+C:\Users\jardi\Desktop\coreapi\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.csprojAssemblyReference.cache
+C:\Users\jardi\Desktop\coreapi\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.csproj.CoreCompileInputs.cache
+C:\Users\jardi\Desktop\coreapi\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfoInputs.cache
+C:\Users\jardi\Desktop\coreapi\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.AssemblyInfo.cs
+C:\Users\jardi\Desktop\coreapi\CoreApi\bin\Debug\netcoreapp2.0\CoreApi.pdb
+C:\Users\jardi\Desktop\coreapi\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.dll
+C:\Users\jardi\Desktop\coreapi\CoreApi\obj\Debug\netcoreapp2.0\CoreApi.pdb
