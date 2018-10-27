@@ -33,6 +33,7 @@ namespace CoreApi
                 app.UseExceptionHandler();
             }
 
+            app.UseStatusCodePages();
             app.UseMvc();
             
         }

@@ -2,20 +2,32 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CoreApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreApi.Controllers
 {
+    [Route("api/cities")]
     public class CitiesController : Controller
     {
-        [HttpGet("api/cities")]
-        public JsonResult GetCities()
+        [HttpGet]
+        public IActionResult GetCities()
         {
-            return new JsonResult(new List<object>()
+            return Ok(CitiesDataStore.Current.Cities);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetCity(int id)
+        {
+            var city = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id);
+
+            if (city == null)
             {
-                new {id = 1, Name = "New York"},
-                new {id = 2, Name = "Antwerp"}
-            });
+                return NotFound();
+            }
+
+            return Ok(city);
+            
         }
     }
 }
